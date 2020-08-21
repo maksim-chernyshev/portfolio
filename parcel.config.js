@@ -9,7 +9,7 @@ const options = {
   outDir: './dist', // Каталог для файлов сборки, по умолчанию - dist
   outFile: 'index.html', // Имя выходного файла
   publicUrl: '/', // Путь, который обслуживает сервер, по умолчанию - '/'
-  watch: false, // следует ли отслеживать изменения файлов и пересобирать их при изменении, по умолчанию - process.env.NODE_ENV !== 'production'
+  watch: true, // следует ли отслеживать изменения файлов и пересобирать их при изменении, по умолчанию - process.env.NODE_ENV !== 'production'
   cache: true, // Включает или отключает кеширование, по умолчанию - true
   cacheDir: '.cache', // Каталог кеширования, по умолчанию .cache
   minify: false, // Минизировать файлы, включено если process.env.NODE_ENV === 'production'
