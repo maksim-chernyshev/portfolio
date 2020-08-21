@@ -1,10 +1,43 @@
 body {
-    margin: 0;
+    width: 786px;
+
+    margin: 0 auto;
     padding: 0;
 
     box-sizing: border-box;
 
-    text-decoration: none;
+    color: #6c7e94;
 
     background-color: #11162a;
+
+    font-family: Arial, sans-serif;
+
+    text-transform: uppercase;
 }
+
+a {
+    color: #484a57;
+    
+    text-decoration: none;
+
+}
+
+.header {
+    
+    &__container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    &__main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.main-nav__item {
+    display: flex;
+    flex-direction: row;
+}
+
